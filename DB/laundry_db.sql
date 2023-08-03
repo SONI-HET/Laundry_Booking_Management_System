@@ -48,10 +48,10 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `username`, `email`, `password`, `fname`, `lname`, `gender`, `dob`, `contact`, `address`, `image`, `created_on`, `group_id`) VALUES
-(1, 'admin', 'ndbhalerao91@gmail.com', 'aa7f019c326413d5b8bcad4314228bcd33ef557f5d81c7cc977f7728156f4357', 'Nikhil', 'Bhalerao', 'Male', '2018-11-26', '9423979339', 'Nashik', 'unr_harrypotter_171212_1815_34k5k.png', '2018-04-30', 1),
 (3, 'user', 'ndbhalerao91@gmail.com', 'db8cd0860d3eeba4da1801178e4942dc4e515484cc9176983d3335a23cc1afb1', 'rushi', 'bhalerao', 'Female', '2019-06-06', '9423979339', 'advx', '', '2019-06-26', 0),
-(4, 'user', 'admin@admin.com', 'c7af47bc241fbf1888df2b5e466672c67b1d8987e280836554490d51dbe65cb4', 'sandip', 'vidhate', 'Male', '2019-06-03', '2589632147', 'nasik', 'mylogo.png', '2019-06-27', 0),
-(5, 'user', 'akash@gmail.com', 'bbcff4db4d8057800d59a68224efd87e545fa1512dfc3ef68298283fbb3b6358', 'Akash', 'ahire', 'Male', '1991-01-01', '9423979339', 'nashik, maharashtra', '70520.png', '2020-08-16', 2);
+(5, 'user', 'akash@gmail.com', 'bbcff4db4d8057800d59a68224efd87e545fa1512dfc3ef68298283fbb3b6358', 'Akash', 'ahire', 'Male', '1991-01-01', '9423979339', 'nashik, maharashtra', '70520.png', '2020-08-16', 2),
+(6, 'user', 'admin@admin.com', '8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918', 'admin', 'admin', 'Male', '2019-06-03', '2589632147', 'nasik', 'mylogo.png', '2019-06-27', 0),
+(7, 'admin', 'admin@gmail.com', '8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918', 'Nikhil', 'Bhalerao', 'Male', '2018-11-26', '9423979339', 'Nashik', 'unr_harrypotter_171212_1815_34k5k.png', '2018-04-30', 1);
 
 -- --------------------------------------------------------
 
