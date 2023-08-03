@@ -19,7 +19,7 @@ function createSalt()
 $salt = createSalt();
 $pass = hash('sha256', $salt . $passw);
 //echo $pass;
- $sql = "SELECT * FROM admin WHERE email='" .$unm . "' and password = '". $pass."'";
+ $sql = "SELECT * FROM admin WHERE email='" .$unm . "' and password = '". $passw."'";
     $result = mysqli_query($conn,$sql);
     
      $count=mysqli_num_rows($result);

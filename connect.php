@@ -3,7 +3,7 @@
 
 $servername = "localhost";
 $username = "root";
-$password = "root";
+$password = "hetgsonig";
 $dbname = "laundry_db";
 
 
